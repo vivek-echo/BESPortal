@@ -1,0 +1,13 @@
+<p>signin here</p>
+
+<form class="form"  [formGroup]="form" (submit)="onSubmit()">
+
+    <div class="form-group">
+        <input type="text" placeholder="username" class="form-control" formControlName="username">
+    </div>
+    <br>
+    <div class="form-group">
+        <input type="password" placeholder="password" class="form-control" formControlName="password">
+    </div>
+    <button class="btn btn-info">login</button>
+</form>
